@@ -14,6 +14,9 @@ tonic = "0.10"
 prost = "0.12"
 futures = "0.3"
 tonic-build = "0.10"
+tokio-postgres = "0.7"
+postgres = "0.19"  # For synchronous comparison
+time = "0.3"
 
 [build-dependencies]
 tonic-build = "0.10"
